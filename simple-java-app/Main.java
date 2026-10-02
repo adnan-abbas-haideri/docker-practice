@@ -37,7 +37,7 @@ public class Main {
                     </style>
                 </head>
                 <body>
-                    <h1>Hello from Java! 🚀</h1>
+                    <h1>Hello from Adnan! 🚀</h1>
                     <p>This Java application is running inside Docker.</p>
                 </body>
                 </html>
