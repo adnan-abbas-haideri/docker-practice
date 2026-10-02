@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flask Docker App</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <div class="icon">🐳</div>
+
+            <h1>Flask + Docker</h1>
+
+            <p>
+                A simple Flask application running inside a Docker container.
+            </p>
+
+            <div class="status">
+                <span class="dot"></span>
+                Application is running
+            </div>
+
+            <a href="/health" class="button">
+                Check Health
+            </a>
+
+        </div>
+
+        <p class="footer">
+            Built for Docker Practice 🚀
+        </p>
+
+    </div>
+
+</body>
+</html>
